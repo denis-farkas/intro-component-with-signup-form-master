@@ -1,0 +1,59 @@
+@media screen and (max-width: 980px) {
+  .content-left {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    padding-top: 4rem;
+  }
+  .content-right {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    margin-left: 0;
+  }
+  .title {
+    width: 70%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 150%;
+  }
+  .description {
+    width: 70%;
+    margin-top: 1.92rem;
+    text-align: center;
+    line-height: 170%;
+  }
+  .jumbo {
+    width: 96%;
+  }
+  form {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 96%;
+    padding: 2rem 0;
+  }
+  input {
+    width: 75vw;
+    margin-left: 0;
+  }
+  .iconic {
+    right: 3vw;
+  }
+  .formData[data-error]::after {
+    margin-right: 0;
+  }
+  button {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style_mobile.css.map */

@@ -1,0 +1,225 @@
+body {
+  height: auto;
+  background-size: cover;
+  background: url(images/bg-intro-desktop.png) #fa5858;
+  background-blend-mode: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+/*body {
+  background-image: url(design/desktop-design.jpg);
+  background-repeat: no-repeat;
+  height: auto;
+  width: 1440px;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}*/
+.container {
+  height: 90vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 48%;
+  height: auto;
+  padding-top: 4rem;
+  color: #fff;
+}
+
+.content-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 48%;
+  height: auto;
+  margin-left: 2rem;
+}
+
+.title {
+  width: 56%;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 105%;
+  letter-spacing: -0.07rem;
+}
+
+.description {
+  width: 56%;
+  margin-top: 1.92rem;
+  line-height: 154%;
+}
+
+.jumbo {
+  width: 58.5%;
+  height: 3.7rem;
+  background-color: #6055a5;
+  margin-top: 3rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: -0.0218rem;
+  -webkit-box-shadow: 0px 6px 6px rgba(51, 50, 57, 0.487);
+          box-shadow: 0px 6px 6px rgba(51, 50, 57, 0.487);
+}
+
+.jumbo p {
+  color: #b9b6d3;
+  font-weight: 500;
+}
+
+.jumbo p span {
+  color: #fff;
+  font-weight: 700;
+}
+
+p {
+  -webkit-margin-before: 1.25rem;
+          margin-block-start: 1.25rem;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1.3rem;
+  background-color: #fff;
+  width: 55.6%;
+  border-radius: 10px;
+  height: 27.6rem;
+  padding: 2rem 1rem;
+  -webkit-box-shadow: 0px 6px 6px rgba(51, 50, 57, 0.487);
+          box-shadow: 0px 6px 6px rgba(51, 50, 57, 0.487);
+}
+
+input {
+  border: 1px solid #b9b6d3;
+  width: 22vw;
+  margin-left: 1.35vw;
+  height: 3.38rem;
+  border-radius: 6px;
+  margin-top: 0.55rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.78rem;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.Pcolor::-webkit-input-placeholder {
+  color: #ff7a7a;
+}
+
+.form-group {
+  position: relative;
+}
+
+.iconic {
+  display: none;
+  position: absolute;
+  right: 1.5vw;
+  top: 15px;
+  padding: 10px 10px;
+}
+
+.formData[data-error]::after {
+  content: attr(data-error);
+  font-size: 10px;
+  color: #e54858;
+  display: block;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 2vw;
+  text-align: right;
+  line-height: 0.3;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.formData[data-error-visible="true"]::after {
+  opacity: 1;
+}
+
+button {
+  border: 1px solid #2aa26e;
+  background-color: #2aa26e;
+  width: 24vw;
+  height: 3.38rem;
+  border-radius: 6px;
+  margin-left: 5%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.15;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  border: 1px solid #38cc8c;
+  background-color: #38cc8c;
+}
+
+.mention {
+  font-size: 8px;
+  text-align: center;
+}
+
+.mention .grey {
+  color: #3e3c49;
+}
+
+a {
+  color: #ff7a7a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.mention .red {
+  color: #ff7a7a;
+}
+/*# sourceMappingURL=style.css.map */
